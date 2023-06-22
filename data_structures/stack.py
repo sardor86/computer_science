@@ -20,7 +20,7 @@ class Stack:
         self.head = self.head.old_data
 
     def __str__(self) -> str:
-        return 'Stack'
+        return str(self.head.data)
 
     def __repr__(self) -> str:
-        return 'Stack'
+        return str(self.head.data)
