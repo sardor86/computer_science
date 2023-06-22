@@ -44,6 +44,8 @@ class LinkedLists:
             if index_number == index:
                 old_data.next_data = data.next_data
 
+        self.size -= 1
+
     def __str__(self) -> str:
         list_str = '[ '
 
